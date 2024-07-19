@@ -4,7 +4,8 @@ import '../entities/version_status.dart';
 import 'package:http/http.dart' as http;
 
 class CheckVersion {
-  final String apiUrl = 'http://192.168.70.197/test/test.json';
+  final String apiUrl =
+      'https://kiu5fjtqjn7lthcxviiwdxwysu0tpvrt.lambda-url.us-west-2.on.aws/';
 
   Future<(VersionStatus, String)> execute() async {
     try {
