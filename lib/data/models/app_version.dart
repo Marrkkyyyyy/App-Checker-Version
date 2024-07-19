@@ -12,8 +12,4 @@ class AppVersion {
   }
 
   bool get isValid => currentVersion != null && minimumVersion != null;
-
-  @override
-  String toString() =>
-      'AppVersion(currentVersion: $currentVersion, minimumVersion: $minimumVersion)';
 }

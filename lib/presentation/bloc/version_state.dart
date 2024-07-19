@@ -1,4 +1,4 @@
-import 'package:version_checker/domain/entities/version_status.dart';
+import 'package:version_checker/data/entities/version_status.dart';
 
 abstract class VersionState {}
 

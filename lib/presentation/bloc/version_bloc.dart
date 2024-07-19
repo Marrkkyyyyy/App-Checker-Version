@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:version_checker/domain/usecases/check_version.dart';
+import 'package:version_checker/data/services/check_version.dart';
 import 'package:version_checker/presentation/bloc/version_state.dart';
 
 part 'version_event.dart';
